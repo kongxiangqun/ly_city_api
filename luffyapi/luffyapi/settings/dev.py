@@ -185,6 +185,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"uploads")
 # 访问上传文件的url地址前缀
 MEDIA_URL ="/media/"
 
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
 
 # 日志配置
 LOGGING = {
