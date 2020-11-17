@@ -76,7 +76,7 @@ AUTH_USER_MODEL = 'users.User'
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     #'www.luffycity.cn:8080', #如果这样写不行的话，就加上协议(http://www.luffycity.cn:8080，因为不同的corsheaders版本可能有不同的要求)
-    'http://www.kxq.xyz:81',
+    'http://www.kxq.xyz:80',
 
 )
 CORS_ALLOW_CREDENTIALS = False  # 是否允许ajax跨域请求时携带cookie，False表示不用，我们后面也用不到cookie，所以关掉它就可以了，以防有人通过cookie来搞我们的网站
@@ -318,8 +318,8 @@ ALIAPY_CONFIG = {
     "alipay_public_key_path": os.path.join(BASE_DIR, "apps/payment/keys/alipay_public_key.pem"),
     "sign_type": "RSA2",
     "debug": False,
-    "return_url": "http://www.lycity.com:8080/payment/result",  # 同步回调地址
-    "notify_url": "http://www.lyapi.com:8001/payment/result",  # 异步结果通知
+    "return_url": "http://www.kxq.com:81/payment/result",  # 同步回调地址
+    "notify_url": "http://api.kxq.com:8000/payment/result",  # 异步结果通知
 }
 
 # POLYV_CONF = {
