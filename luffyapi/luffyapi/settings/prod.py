@@ -25,7 +25,7 @@ SECRET_KEY = 'x_1&uk&m^a-a!5lha9a)kjc@dqa^hjwzc*9s)5$ol*w786_m7e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.kxq.xyz','www.lycity.com']
+ALLOWED_HOSTS = ['www.kxq.xyz','api.kxq.xyz']
 
 import sys
 # print(sys.path)
