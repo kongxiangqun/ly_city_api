@@ -10,7 +10,7 @@ SMS_CODE_EXPIRE_TIME = 60 * 10
 SMS_CODE_INTERVAL_TIME = 60
 
 # server address
-SERVER_ADDR = 'http://www.lyapi.com:8001'
+SERVER_ADDR = 'http://www.kxq.xyz'
 
 # 积分兑换比例
 CREDIT_MONEY = 10   # 10个积分顶一块钱

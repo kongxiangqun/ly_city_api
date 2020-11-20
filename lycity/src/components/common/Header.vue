@@ -64,24 +64,24 @@
                     <ul class="home-my-account" v-show="list_status">
                       <li>
                         我的账户
-                        <img src="https://hcdn1.luffycity.com/static/frontend/activity/back_1568185800.821227.svg"
+                        <img src="#"
                              alt="">
                       </li>
                       <li>
                         <router-link to="/myorder/">
                         我的订单
-                        <img src="https://hcdn1.luffycity.com/static/frontend/activity/back_1568185800.821227.svg"
+                        <img src="#"
                              alt="">
                         </router-link>
                       </li>
                       <li>
                         贝里小卖铺
-                        <img src="https://hcdn1.luffycity.com/static/frontend/activity/back_1568185800.821227.svg"
+                        <img src="#"
                              alt="">
                       </li>
                       <li>
                         我的优惠券
-                        <img src="https://hcdn1.luffycity.com/static/frontend/activity/back_1568185800.821227.svg"
+                        <img src="#"
                              alt="">
                       </li>
                       <li>
@@ -89,12 +89,12 @@
                           我的消息
                           <b>(26)</b>
                         </span>
-                        <img src="https://hcdn1.luffycity.com/static/frontend/activity/back_1568185800.821227.svg"
+                        <img src="#"
                              alt="">
                       </li>
                       <li @click="logout">
                         退出
-                        <img src="https://hcdn1.luffycity.com/static/frontend/activity/back_1568185800.821227.svg"
+                        <img src="#"
                              alt="">
                       </li>
 

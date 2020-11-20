@@ -76,7 +76,7 @@ AUTH_USER_MODEL = 'users.User'
 # CORS组的配置信息
 CORS_ORIGIN_WHITELIST = (
     #'www.luffycity.cn:8080', #如果这样写不行的话，就加上协议(http://www.luffycity.cn:8080，因为不同的corsheaders版本可能有不同的要求)
-    'http://www.kxq.xyz:80',
+    'http://www.kxq.xyz',
 
 )
 CORS_ALLOW_CREDENTIALS = False  # 是否允许ajax跨域请求时携带cookie，False表示不用，我们后面也用不到cookie，所以关掉它就可以了，以防有人通过cookie来搞我们的网站
@@ -123,7 +123,7 @@ DATABASES = {
         "HOST": "81.70.142.27",
         "PORT": 3306,
         "USER": "root",
-        "PASSWORD": "1",
+        "PASSWORD": "123456",
         "NAME": "luffy",
     }
 }
@@ -262,7 +262,7 @@ CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
         # 项目上线时,需要调整这里的路径 0号库
-        "LOCATION": "redis://127.0.0.1:6379/0",
+        "LOCATION": "redis://81.70.142.27:6379/0",
 
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
@@ -271,7 +271,7 @@ CACHES = {
     # 提供给xadmin或者admin的session存储
     "session": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/1",
+        "LOCATION": "redis://81.70.142.27:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -279,14 +279,14 @@ CACHES = {
     # 提供存储短信验证码
     "sms_code":{
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/2",
+        "LOCATION": "redis://81.70.142.27:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         },
     },
     "cart": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://127.0.0.1:6379/3",
+        "LOCATION": "redis://81.70.142.27:6379/3",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         },

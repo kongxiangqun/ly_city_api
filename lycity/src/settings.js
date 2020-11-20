@@ -1,7 +1,7 @@
 
 export default {
   //Host:"http://www.lyapi.com:8001",// server address
-  Host:"http://www.kxq.xyz:81",
+  Host:"http://api.kxq.xyz",
   check_login(ths){
       let token = localStorage.token || sessionStorage.token;
       //console.log(this.token);
