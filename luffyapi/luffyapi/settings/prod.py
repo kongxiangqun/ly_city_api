@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -318,8 +317,8 @@ ALIAPY_CONFIG = {
     "alipay_public_key_path": os.path.join(BASE_DIR, "apps/payment/keys/alipay_public_key.pem"),
     "sign_type": "RSA2",
     "debug": False,
-    "return_url": "http://www.kxq.com:81/payment/result",  # 同步回调地址
-    "notify_url": "http://api.kxq.com:8000/payment/result",  # 异步结果通知
+    "return_url": "http://www.kxq.com/payment/result",  # 同步回调地址
+    "notify_url": "http://api.kxq.com/payment/result",  # 异步结果通知
 }
 
 # POLYV_CONF = {

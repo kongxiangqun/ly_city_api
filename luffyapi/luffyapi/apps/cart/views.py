@@ -103,7 +103,7 @@ class AddCartView(ViewSet):
             return Response({'msg': '后台数据库出问题了,请联系管理员'}, status=status.HTTP_507_INSUFFICIENT_STORAGE)
             # try:
         #     models.Course.objects.filter()
-        print(cart_data_list)
+        # print(cart_data_list)
 
         return Response({'msg': 'xxx', 'cart_data_list': cart_data_list})
 
