@@ -6157,3 +6157,50 @@ WARNING 2020-11-20 15:43:16,447 basehttp 154 "GET /media/video/222.mp4 HTTP/1.1"
 WARNING 2020-11-20 16:09:16,645 log 228 Not Found: /media/video/222.mp4
 WARNING 2020-11-20 16:09:16,647 basehttp 154 "GET /media/video/222.mp4 HTTP/1.1" 404 1814
 INFO 2020-11-20 16:28:03,476 autoreload 203 D:\python-3.6-项目\project\luffyapi\luffyapi\apps\cart\views.py changed, reloading.
+INFO 2020-11-21 14:12:23,163 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-11-21 14:14:07,408 autoreload 578 Watching for file changes with StatReloader
+INFO 2020-11-21 14:14:33,821 autoreload 578 Watching for file changes with StatReloader
+WARNING 2020-11-21 14:14:36,852 log 228 Not Found: /
+WARNING 2020-11-21 14:14:36,852 basehttp 154 "GET / HTTP/1.1" 404 2906
+WARNING 2020-11-21 14:14:36,924 log 228 Not Found: /favicon.ico
+WARNING 2020-11-21 14:14:36,925 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2957
+INFO 2020-11-21 14:14:45,527 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2020-11-21 14:14:45,795 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2020-11-21 14:14:45,825 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-11-21 14:14:45,830 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-11-21 14:14:45,835 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-11-21 14:14:45,842 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-11-21 14:14:45,845 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-11-21 14:14:45,853 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-11-21 14:14:45,861 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-11-21 14:14:45,861 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-11-21 14:14:45,869 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-11-21 14:14:45,891 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-11-21 14:14:45,896 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-11-21 14:14:45,902 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-11-21 14:14:45,910 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-11-21 14:14:45,912 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-11-21 14:14:45,921 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-11-21 14:14:45,936 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-11-21 14:14:45,948 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2020-11-21 14:14:45,995 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-11-21 14:14:59,076 autoreload 578 Watching for file changes with StatReloader
+WARNING 2020-11-21 14:15:00,809 log 228 Not Found: /
+WARNING 2020-11-21 14:15:00,809 basehttp 154 "GET / HTTP/1.1" 404 2906
+INFO 2020-11-21 14:15:05,916 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2020-11-21 14:15:05,950 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2020-11-21 14:15:14,419 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2020-11-21 14:15:17,771 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 24233
+INFO 2020-11-21 14:15:17,788 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2020-11-21 14:15:17,792 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2020-11-21 14:15:17,793 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2020-11-21 14:15:17,812 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-11-21 14:15:29,054 basehttp 154 "GET /xadmin/users/user/ HTTP/1.1" 200 48075
+INFO 2020-11-21 14:15:29,076 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2020-11-21 14:15:29,078 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2020-11-21 14:15:29,081 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2020-11-21 14:15:29,081 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7722
+INFO 2020-11-21 14:15:29,082 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2020-11-21 14:15:29,083 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2020-11-21 14:15:29,084 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2020-11-21 14:15:29,084 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
